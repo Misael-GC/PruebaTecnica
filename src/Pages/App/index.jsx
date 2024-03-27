@@ -4,6 +4,7 @@ import Nosotros from '../Nosotros';
 import Productos from '../Productos';
 import Usuario from '../Usuario';
 import NotFound from '../NotFound';
+import Navbar from '../../Components/Navbar';
 import './App.css';
 
 const AppRoutes = () => {
@@ -22,6 +23,7 @@ function App() {
   return (
     <BrowserRouter>
       <AppRoutes/>
+      <Navbar/>
     </BrowserRouter>
   )
 }

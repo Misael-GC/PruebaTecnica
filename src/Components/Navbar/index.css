@@ -1,0 +1,11 @@
+.logo-container{
+    width: 165px;
+    height: 50px;
+}
+
+.active-button {
+    background-color: orange;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
