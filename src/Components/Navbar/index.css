@@ -3,9 +3,28 @@
     height: 50px;
 }
 
-.active-button {
-    background-color: orange;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
+.button {
+    width: auto;
+    height: auto;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
   }
+
+  .active {
+    background-color: #EDA836;
+    border-radius: 22px;
+  }
+
+  .icon{
+    width: 24px;
+  }
+
+ .icon:hover{
+    width: 26px;
+  } 
+
+.counter{
+    background-color: red;
+    border-radius: 50%;
+}
