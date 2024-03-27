@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '../../Components/Layout'
+
 
 function Promociones() {
   return (
-    <div>Promociones</div>
+    <Layout>
+      Promociones
+    </Layout>
   )
 }
 

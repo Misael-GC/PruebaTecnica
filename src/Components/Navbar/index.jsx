@@ -15,7 +15,7 @@ function Navbar() {
     };
 
   return (
-    <nav className='flex justify-between items-center fixed z-10 w-full py-5 px-8'>
+    <nav className='flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8'>
       <ul className='flex items-center gap-3'>
         <li>
             <NavLink to='/'>
@@ -64,13 +64,15 @@ function Navbar() {
             </figure>
         </li>
         <li>
-            <figure className=''>
-                <img src={user} alt='user' className='object-contain icon'/>
-            </figure>
+            <NavLink to='/usuario'>
+                <figure className=''>
+                    <img src={user} alt='user' className='object-contain icon'/>
+                </figure>
+            </NavLink>
         </li>
         <li>
             <figure className='flex'>
-                <img src={shopping} alt='shopping' className='object-contain icon' /> <div className='counter'>0</div>
+                <img src={shopping} alt='shopping' className='object-contain icon' /> <div className='counter'> 0 </div>
             </figure>
         </li>
       </ul>

@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../../Components/Layout'
 
 function Nosotros() {
   return (
-    <div>Nosotros</div>
+    <Layout >Nosotros</Layout>
   )
 }
 

@@ -27,4 +27,11 @@
 .counter{
     background-color: red;
     border-radius: 50%;
+    width: 9px;
+    height: 17px;
+    color: white;
+    font-size: 14px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
 }

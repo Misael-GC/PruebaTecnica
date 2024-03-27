@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../../Components/Layout'
 
 function Usuario() {
   return (
-    <div>
+    <Layout>
       Usuario
-    </div>
+    </Layout>
   )
 }
 
