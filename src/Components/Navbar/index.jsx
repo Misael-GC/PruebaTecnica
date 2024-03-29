@@ -15,7 +15,7 @@ function Navbar() {
     };
 
   return (
-    <nav className='flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8'>
+    <nav className='flex justify-between items-center fixed z-10 top-0 w-full py-3 px-8 bg-white'>
       <ul className='flex items-center gap-3'>
         <li>
             <NavLink to='/'>
