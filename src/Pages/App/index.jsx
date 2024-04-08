@@ -7,6 +7,7 @@ import NotFound from '../NotFound';
 import Navbar from '../../Components/Navbar';
 import './App.css';
 
+
 const AppRoutes = () => {
   let routes = useRoutes([
     { path: '/', element: <Promociones /> },
